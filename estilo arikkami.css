@@ -1,0 +1,87 @@
+html {
+    background: url('https://cdn.discordapp.com/attachments/940625643169792000/955364146013159444/background_arikkami.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+body{
+	font-family: Arial;
+}
+
+
+
+#title {
+	padding-top: 50px;
+	text-align: center;
+}
+	
+#server {
+    width: 20%;
+    text-align: center;
+    min-width: 150px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#bot {
+	width: 20%;
+    text-align: center;
+    min-width: 150px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#tabla-comandos{
+	margin: 150px auto;
+	width: 600px;
+}
+
+
+.arikkami_logo {
+    display: inline-block;
+    min-width: 700px;
+    max-width: 233x;
+    width: 50%;
+}
+
+.option_image {
+    height: 150px;
+}
+
+
+.option_text {
+    display: block;
+}
+
+
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+
+th, td{
+	padding: 20px;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #b084d9;
+	color: white;
+}
